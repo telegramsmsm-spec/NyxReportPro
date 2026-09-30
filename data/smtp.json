@@ -1,0 +1,10 @@
+[
+  {
+    "host": "smtp.gmail.com",
+    "port": 587,
+    "user": "you@gmail.com",
+    "password": "app_password",
+    "from_name": "Compliance Desk",
+    "use_tls": true
+  }
+]

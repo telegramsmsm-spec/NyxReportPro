@@ -1,0 +1,5 @@
+# One api_id:api_hash per line. Tool picks randomly per account.
+# Get keys from https://my.telegram.org
+# Example:
+# 12345678:0123456789abcdef0123456789abcdef
+# 87654321:fedcba9876543210fedcba9876543210

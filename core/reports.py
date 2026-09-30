@@ -54,11 +54,17 @@ class ReportEngine:
         tl = REASON_MAP.get(reason, InputReportReasonOther())
         try:
             entity = await acc.client.get_entity(target.lstrip("@"))
-            ids = evidence.get("sample_ids", [])[:5]
-            if ids:
-                await acc.client(ReportRequest(peer=entity, id=ids, reason=tl, message=comment[:200]))
-            else:
+            ids = evidence.get("sample_ids", [])[:8]
+            # Peer report first (stable). Message report uses option:bytes in Telethon 1.40+.
+            try:
                 await acc.client(ReportPeerRequest(peer=entity, reason=tl, message=comment[:200]))
+            except Exception:
+                if ids:
+                    await acc.client(
+                        ReportRequest(peer=entity, id=ids, option=b"", message=comment[:200])
+                    )
+                else:
+                    raise
             self.ok += 1
             acc.reports_this_wave += 1
             await self.db.inc_reports(acc.phone)

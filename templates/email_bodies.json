@@ -1,0 +1,34 @@
+{
+  "spam": {
+    "subject": "Abuse Report – Spam Channel {target}",
+    "body": "I am reporting the public Telegram channel {target} for repeated spam violations.\n\nPublic evidence posts:\n{evidence}\n\nPlease review and take appropriate action."
+  },
+  "pornography": {
+    "subject": "Abuse Report – Pornography / Adult Content {target}",
+    "body": "The public channel {target} is distributing explicit adult content in violation of Telegram Terms.\n\nEvidence:\n{evidence}\n\nKindly moderate."
+  },
+  "illegal goods": {
+    "subject": "Abuse Report – Illegal Goods {target}",
+    "body": "Public channel {target} appears to facilitate illegal goods trade.\n\nEvidence posts:\n{evidence}"
+  },
+  "violence": {
+    "subject": "Abuse Report – Violence Content {target}",
+    "body": "Channel {target} contains violence-related content that breaches Telegram rules.\n\nEvidence:\n{evidence}"
+  },
+  "child abuse": {
+    "subject": "PRIORITY Abuse Report – Child Exploitation {target}",
+    "body": "URGENT: Public channel {target} may contain child sexual abuse material.\n\nEvidence links:\n{evidence}\n\nImmediate review requested."
+  },
+  "copyright": {
+    "subject": "DMCA / Copyright Report {target}",
+    "body": "The public channel {target} is distributing copyrighted material without permission.\n\nInfringing posts:\n{evidence}"
+  },
+  "personal details": {
+    "subject": "Abuse Report – Personal Data / Doxxing {target}",
+    "body": "Channel {target} is publishing private personal information without consent.\n\nEvidence:\n{evidence}"
+  },
+  "other": {
+    "subject": "Telegram Abuse Report – {target}",
+    "body": "Reporting public channel {target} for Terms of Service violations ({reason}).\n\nEvidence:\n{evidence}"
+  }
+}

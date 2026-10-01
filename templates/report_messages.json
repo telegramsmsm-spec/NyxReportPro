@@ -1,0 +1,10 @@
+{
+  "spam": "The linked public channel is repeatedly posting spam and unsolicited promotional material in violation of Telegram Terms of Service. Evidence posts are listed above.",
+  "pornography": "The public channel is distributing explicit adult sexual content that violates Telegram's rules on pornography. Public posts with clear violations are linked above for review.",
+  "illegal goods": "This public channel appears to advertise or facilitate trade in illegal goods. Supporting public posts are provided as evidence.",
+  "violence": "The channel contains content that promotes or depicts violence in breach of Telegram Terms. Evidence is attached via the listed public post links.",
+  "child abuse": "PRIORITY: Public posts in this channel appear to involve child sexual abuse material or exploitation. Immediate review requested. Evidence links above.",
+  "copyright": "The public channel is distributing copyrighted material without authorization. Specific infringing posts are listed for DMCA review.",
+  "personal details": "The channel is publishing private personal information (doxxing) of individuals without consent. Evidence posts are provided.",
+  "other": "The public channel is violating Telegram Terms of Service. Reason: {reason}. Evidence posts are listed above for moderator review."
+}

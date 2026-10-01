@@ -1,0 +1,29 @@
+{
+  "smtp": {
+    "host": "smtp.gmail.com",
+    "port": 587,
+    "email": "your@gmail.com",
+    "app_password": "your-app-password"
+  },
+  "defaults": {
+    "max_concurrent": 3,
+    "posts_limit": 30,
+    "report_delay_sec": 5,
+    "email_delay_sec": 8,
+    "proxy_test_timeout": 8
+  },
+  "proxy_channels": [
+    "ProxyMTProto",
+    "proxyag",
+    "MTProto",
+    "ProxyForTelegram"
+  ],
+  "official_bots": [
+    "notoscam"
+  ],
+  "abuse_emails": [
+    "abuse@telegram.org",
+    "dmca@telegram.org",
+    "spam@telegram.org"
+  ]
+}
